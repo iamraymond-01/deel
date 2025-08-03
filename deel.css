@@ -839,7 +839,7 @@ body {
 
     .section-05-container-box2 {
         width: 100%;
-        transform: translateX(146px);
+        /* transform: translateX(146px); */
         overflow: scroll;
     }
 
