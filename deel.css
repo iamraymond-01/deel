@@ -844,7 +844,7 @@ body {
     }
 
     .section-05-container-box2-div {
-        overflow: hidden;
+        overflow: scroll;
         gap: 12px;
     }
 
