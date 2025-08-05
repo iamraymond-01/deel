@@ -445,6 +445,10 @@ body {
     background: #FEF0D880;
 }
 
+.section-05-container {
+    overflow: hidden;
+}
+
 .section-05-container-box1>h5 {
     color: #1B1B1B;
     font-family: Arial, Helvetica, sans-serif;
@@ -469,6 +473,8 @@ body {
     align-items: center;
     justify-content: center;
     gap: 30px;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 .section-05-container-box2-btn1 {
@@ -479,6 +485,16 @@ body {
 .section-05-container-box2-btn {
     border: 0px;
     background-color: transparent;
+}
+
+.section-05-container-box2-btnn {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .section-05-container-box3 {
@@ -536,7 +552,182 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     width: fit-content;
     margin-top: 24px;
+}
 
+.section-05-container2 {
+    padding: 40px 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.section-05-container2-box1 {
+    max-width: 640px;
+}
+
+.section-05-container2-box1>h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1B1B1B;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1;
+    letter-spacing: -0.28px;
+    text-align: center;
+    text-wrap: balance;
+    margin-top: 50px;
+}
+
+.section-05-container2-box2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+.section-05-container2-box2a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 450px;
+    width: 100%;
+}
+
+.section-05-container2-box2a-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 20px 0px;
+}
+
+.section-05-container2-box2a-content-box1 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.section-05-container2-box2a-content-number {
+    width: 32px;
+    height: 32px;
+    background-color: #B1D8FC;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #1B1B1B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.section-05-container2-box2a-content-box1>h5 {
+    color: #1B1B1B;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 115%;
+    text-wrap: balance;
+}
+
+.section-05-container2-box2a-content-box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 0px 32px;
+    border-left: 1px solid #C6BAB3;
+}
+
+.section-05-container2-box2a-content-box2>p {
+    color: rgba(27, 27, 27, 0.85);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 170%;
+    letter-spacing: -0.08px;
+}
+
+.section-05-container2-box2a-content-box2-btn {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 500;
+    padding: 12px 16px;
+    font-size: 16px;
+    letter-spacing: 0.24px;
+    height: 51px;
+    border: none;
+    border-radius: 200px;
+    background-color: #1B1B1B;
+    color: #FFFFFF;
+}
+
+.section-05-container2-box2b {
+    width: 100%;
+    height: 100%;
+    max-width: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-05-container2-box2b>img {
+    width: 100%;
+    height: auto;
+}
+
+.section-06-top {
+    width: 100%;
+    background-color: #FEF0D880;
+}
+
+.section-06-top>img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-06 {
+    width: 100%;
+    padding: 80px 64px;
+    background-color: #1B1B1B;
+    color: #FFFFFF;
+}
+
+.section-06-container-boxA-box2>h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.14px;
+}
+
+.section-06-container-boxA-box2>a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 170%;
+    letter-spacing: -0.08px;
+}
+
+.section-06-container-boxB {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.section-06-container-boxB-content>h6 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.section-06-container-boxB-content>p {
+    font-size: 16px;
+    font-weight: 400;
 }
 
 @media screen and (min-width: 950px) {
@@ -653,6 +844,19 @@ body {
 
     .section-05-container-box3-boxb {
         padding: 0px 50px;
+    }
+
+    .section-05-container2-box1>h5 {
+        font-size: 44px;
+    }
+
+    .section-05-container2-box2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-05-container2-box2a {
+        max-width: 640px;
     }
 
 }
@@ -789,10 +993,6 @@ body {
         padding: 5px 8px;
     }
 
-    .section-05-container{
-        overflow: hidden;
-    }
-
     .section-05-container-box1>h5 {
         color: #1B1B1B;
         font-weight: 600;
@@ -839,23 +1039,41 @@ body {
 
     .section-05-container-box2 {
         width: 100%;
-        /* transform: translateX(146px); */
-        overflow: scroll;
     }
 
     .section-05-container-box2-div {
-        overflow: scroll;
         gap: 12px;
     }
 
-    .section-05-container-box2-btnn {
-        display: inline-flex;
-        flex-shrink: 0;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+    .section-05-container2 {
+        gap: 25px;
+    }
+
+    .section-05-container2-box1>h5 {
+        font-weight: 600;
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .section-05-container2-box2a-content-box1>h5 {
+        font-size: 20px;
+    }
+
+    .section-05-container2-box2a-content-box2>p {
         font-size: 14px;
-        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .section-06{
+        padding: 40px;
+    }
+
+    .section-06-container-boxA-box2>h5{
+        font-weight: 600;
+    }
+
+    .section-06-container-boxB{
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
 }
 
@@ -983,5 +1201,16 @@ body {
         font-weight: 300;
         line-height: 1.5;
         letter-spacing: -0.18px;
+    }
+
+    .section-05-container2-box1>h5 {
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: -0.14px;
+    }
+
+    .section-06-container-boxA-box2>h5{
+        font-size: 20px;
+        font-weight: 400;
     }
 }
