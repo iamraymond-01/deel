@@ -715,8 +715,8 @@ body {
 }
 
 .section-06-container-boxB {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    align-items: center;
     gap: 30px;
 }
 
@@ -1069,11 +1069,6 @@ body {
 
     .section-06-container-boxA-box2>h5{
         font-weight: 600;
-    }
-
-    .section-06-container-boxB{
-        grid-template-columns: 1fr;
-        gap: 20px;
     }
 }
 
